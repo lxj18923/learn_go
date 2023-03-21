@@ -26,4 +26,5 @@ func quickSort(nums []int) {
 	nums[0], nums[right] = nums[right], nums[0]
 	quickSort(nums[:right])
 	quickSort(nums[right+1:])
+	// 我是修改代码的
 }
